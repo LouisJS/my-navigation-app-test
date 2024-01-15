@@ -20,11 +20,7 @@ export default function RootStack() {
           component={TabNavigator}
           options={{ headerShown: false }}
         />
-        <Stack.Screen
-          name="Modal"
-          component={Modal}
-          options={{ presentation: 'modal', headerLeft: null }}
-        />
+        <Stack.Screen name="Modal" component={Modal} options={{ presentation: 'modal' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
